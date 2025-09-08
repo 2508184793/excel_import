@@ -3,6 +3,10 @@ from typing import Union
 from fastapi import FastAPI, UploadFile, File
 import os
 
+
+"""
+    uvicorn api_file:app --reload
+"""
 app = FastAPI()
 
 # 确保文件存储目录存在
